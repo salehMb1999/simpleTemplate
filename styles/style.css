@@ -68,3 +68,49 @@ a {
 .selected-text {
     color: #00BAC6;
 }
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8rem;
+}
+.top-image__img {
+  width: 60rem;
+}
+.top-texts {
+  padding-right: 5rem;
+  max-width: 50rem;
+}
+.top-title {
+  font-family: "IranYekan Bold";
+  font-size: 3rem;
+  color: #4A4A4A;
+  margin-bottom: 4rem;
+}
+.top-text {
+  font-size: 1.75rem;
+  color: #4A4A4A;
+}
+.bot-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8rem;
+}
+.bot-image__img {
+  width: 50rem;
+}
+.bot-texts {
+  padding-right: 5rem;
+  max-width: 60rem;
+}
+.bot-title {
+  font-family: "IranYekan Bold";
+  font-size: 3rem;
+  color: #4A4A4A;
+  margin-bottom: 4rem;
+}
+.bot-text {
+  font-size: 1.75rem;
+  color: #4A4A4A;
+}
