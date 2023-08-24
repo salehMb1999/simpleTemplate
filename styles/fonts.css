@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "IranYekan Light";
+    src: url(./../public/fonts/IRANYekanLight.ttf);
+}
+@font-face {
+    font-family: "IranYekan Medium";
+    src: url(./../public/fonts/IRANYekanMedium.ttf);
+}
+@font-face {
+    font-family: "IranYekan Bold";
+    src: url(./../public/fonts/IRANYekanBold.ttf);
+}

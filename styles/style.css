@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: "IranYekan Light";
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #00bac6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.nav {
+  /* background-color: red; */
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu__item {
+  margin-left: 6rem;
+}
+.nav-menu__item--link {
+  color: #fff;
+  font-family: "IranYekan Medium";
+}
+.subHeader {
+  background: linear-gradient(
+      77deg,
+      rgba(0, 0, 0, 0) 45%,
+      rgba(255, 255, 255, 1) 45%
+    ),
+    url("./../public/images/header.png");
+  background-position: left;
+  background-size: contain;
+  min-height: 66rem;
+  background-repeat: no-repeat;
+}
+.subHeader-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 60rem;
+    padding-top: 20rem;
+}
+.subHeader-title {
+    font-family: "IranYekan Bold";
+    font-size: 4rem;
+    color: #4A4A4A;
+    margin-bottom: 4rem;
+}
+.subHeader-text {
+    font-size: 1.75rem;
+    color: #4A4A4A;
+}
+.selected-text {
+    color: #00BAC6;
+}
