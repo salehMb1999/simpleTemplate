@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 *,
 *::after,
@@ -21,9 +22,7 @@ a {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.nav {
-  /* background-color: red; */
-}
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -48,25 +47,25 @@ a {
   background-repeat: no-repeat;
 }
 .subHeader-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 60rem;
-    padding-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 60rem;
+  padding-top: 20rem;
 }
 .subHeader-title {
-    font-family: "IranYekan Bold";
-    font-size: 4rem;
-    color: #4A4A4A;
-    margin-bottom: 4rem;
+  font-family: "IranYekan Bold";
+  font-size: 4rem;
+  color: #4a4a4a;
+  margin-bottom: 4rem;
 }
 .subHeader-text {
-    font-size: 1.75rem;
-    color: #4A4A4A;
+  font-size: 1.75rem;
+  color: #4a4a4a;
 }
 .selected-text {
-    color: #00BAC6;
+  color: #00bac6;
 }
 .top-section {
   display: flex;
@@ -84,12 +83,12 @@ a {
 .top-title {
   font-family: "IranYekan Bold";
   font-size: 3rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
   margin-bottom: 4rem;
 }
 .top-text {
   font-size: 1.75rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 .bot-section {
   display: flex;
@@ -107,10 +106,140 @@ a {
 .bot-title {
   font-family: "IranYekan Bold";
   font-size: 3rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
   margin-bottom: 4rem;
 }
 .bot-text {
   font-size: 1.75rem;
-  color: #4A4A4A;
+  color: #4a4a4a;
+}
+.footer {
+  margin-top: 45rem;
+  position: relative;
+  background-color: #00bac6;
+}
+.form-section {
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.23);
+  max-width: 80rem;
+  /* height: 50rem; */
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 2rem;
+  position: absolute;
+  top: -35rem;
+  left: 0;
+  right: 0;
+  padding: 3rem 0;
+}
+.footer-content {
+  padding-top: 25rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+.rightPart {
+  /* padding-right: 6rem; */
+}
+.topRight {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  font-size: 4rem;
+}
+.botRight {
+  padding-top: 5rem;
+  font-size: 1.5rem;
+}
+.botRightText {
+  color: #fff;
+  padding-left: 1rem;
+}
+.leftPart {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.productsCol {
+  padding-left: 5rem;
+  text-align: center;
+}
+.productsTitle {
+  font-family: "IranYekan Bold";
+  margin-bottom: 1rem;
+}
+.products-item {
+  font-size: 1.5rem;
+}
+.accessCol {
+  padding-left: 5rem;
+  text-align: center;
+}
+.accessTitle {
+  font-family: "IranYekan Bold";
+  margin-bottom: 1rem;
+}
+.access-item {
+  font-size: 1.5rem;
+}
+.serviceCol {
+  text-align: center;
+}
+.serviceTitle {
+  font-family: "IranYekan Bold";
+  margin-bottom: 1rem;
+}
+.service-item {
+  font-size: 1.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4a4a4a;
+}
+.formTitle {
+  font-family: "IranYekan Bold";
+  font-size: 3rem;
+  border: 5px solid #00bac6;
+  padding: 1rem 2rem;
+  /* margin-top: 3rem; */
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+.comment,
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.form input,
+textarea {
+  border-radius: 15px;
+  border: 2px solid #00bac6;
+  padding: 0.5rem 1rem;
+  color: #4a4a4a;
+  font-size: 1.4rem;
+  font-family: "IranYekan Medium";
+}
+input[type="text"]:focus,
+textarea:focus {
+  border: 2px solid #00bac6;
+
+  outline: none;
+}
+.formBtn {
+  font-size: 2rem;
+  font-family: "IranYekan Bold";
+  padding: 0.5rem 3rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #00bac6;
+  border: 2px solid #4a4a4a;
 }
