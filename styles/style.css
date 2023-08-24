@@ -14,9 +14,19 @@ body {
   line-height: 1.6;
   font-family: "IranYekan Light";
 }
-a {
+a,
+.selected-text,
+button,
+.productsTitle,
+.products-item,
+.accessTitle,
+.access-item,
+.serviceTitle,
+.service-item {
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
+
 .header {
   background-color: #00bac6;
   padding-top: 2rem;
@@ -148,6 +158,10 @@ a {
   align-items: center;
   color: #fff;
   font-size: 4rem;
+  
+}
+.topRight> i {
+  transition: all 0.2s ease-in-out;
 }
 .botRight {
   padding-top: 5rem;
@@ -242,4 +256,16 @@ textarea:focus {
   color: #fff;
   background-color: #00bac6;
   border: 2px solid #4a4a4a;
+}
+button:hover {
+  background-color: #4a4a4a;
+  cursor: pointer;
+}
+a:hover,
+.selected-text:hover,
+.service-item:hover,
+.products-item:hover,
+.access-item:hover, i:hover {
+  color: #4a4a4a;
+  cursor: pointer;
 }
