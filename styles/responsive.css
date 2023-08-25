@@ -1,0 +1,45 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+  .subHeader {
+    background: #fff;
+  }
+  .subHeader-content {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .nav-menu {
+    justify-content: center;
+  }
+  .top-section {
+    flex-direction: column;
+  }
+.bot-section {
+    flex-direction: column;
+}
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+    .mobile-menu__btn {
+        margin-top: 1rem;
+        display: flex;
+    }
+    .mobile-menu {
+        display: flex;
+    }
+    .nav {
+        display: none;
+    }
+    .header {
+        background-color: #fff;
+    }
+}
+@media (max-width: 576px) {
+    .topRight {
+        flex-direction: column;
+    }
+    html {
+        font-size: 50%;
+      }
+}
