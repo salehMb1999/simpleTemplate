@@ -149,9 +149,7 @@ button,
   align-items: center;
   flex-grow: 1;
 }
-.rightPart {
-  /* padding-right: 6rem; */
-}
+
 .topRight {
   display: flex;
   justify-content: space-evenly;
