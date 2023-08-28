@@ -84,7 +84,8 @@ button,
   padding-top: 8rem;
 }
 .top-image__img {
-  width: 60rem;
+  max-width: 40rem;
+  display: block;
 }
 .top-texts {
   padding-right: 5rem;
@@ -107,7 +108,9 @@ button,
   padding-top: 8rem;
 }
 .bot-image__img {
-  width: 50rem;
+  max-width: 40rem;
+  display: block;
+
 }
 .bot-texts {
   padding-right: 5rem;
@@ -131,7 +134,6 @@ button,
 .form-section {
   box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.23);
   max-width: 80rem;
-  /* height: 50rem; */
   background-color: #fff;
   margin: 0 auto;
   border-radius: 2rem;

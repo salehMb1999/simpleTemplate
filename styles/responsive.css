@@ -31,11 +31,28 @@
     background-color: #fff;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 598px) {
   .topRight {
     flex-direction: column;
   }
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
+  .bot-image, .top-image {
+    max-width: 40rem;
+  }
+}
+@media (max-width: 382px) {
+  .topRight {
+    flex-direction: column;
+  }
+  .footer-content, .leftPart {
+    flex-direction: column;
+  }
+  .form-section {
+    max-width: 40rem;
+  }
+  /* html {
+    font-size: 50%;
+  } */
 }
